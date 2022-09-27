@@ -1,0 +1,17 @@
+.home{
+    /* background-color: rgb(125, 71, 71); */
+    /* border: 2px solid red; */
+    height: 100vh;
+    /* z-index: -10; */
+}
+.image{
+    width: 50%;
+    height: 50%;
+    margin-left: 20rem;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 20rem;
+    width: 100%;
+}

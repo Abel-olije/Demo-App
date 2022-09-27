@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    height: 5rem;
+    background-color: rgb(7, 122, 230);
+    border-bottom: 1px solid #e5e5e5;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    
+}
+.canvas{
+    /* z-index: -1; */
+    max-width: 15rem;
+    margin-top: 80px;
+    overflow: scroll;
+    background-color: rgb(52, 98, 117)
+}
+.btn{
+    background-color: rgb(132, 63, 143);
+}
+.link a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0 1rem;
+    width: 100%;
+}

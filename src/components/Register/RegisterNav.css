@@ -1,0 +1,20 @@
+.register_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    background-color: #1994d1;
+    /* border-bottom: 1px solid #e5e5e5; */
+    box-shadow: 0 1px 2px 0 rgba(233, 85, 85, 0.2);
+}
+.register_nav_left{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.register_nav_logo_text h1{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    /* margin-left: 1rem; */
+}

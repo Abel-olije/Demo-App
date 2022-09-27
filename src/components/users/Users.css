@@ -1,0 +1,50 @@
+.xyz {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    flex-wrap: wrap;
+    gap: 30px 20px;
+}
+
+.abc {
+    flex: 1 1 300px;
+  border: 2px solid black;
+   font-size: smaller;
+   display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.h{
+    object-fit: cover;
+    width: 100%;
+    height: fit-content;
+}
+.btn_g{
+    display: flex;
+}
+.g{
+    width: 90px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: #c9dd5a;
+    margin: 5px auto;
+}
+.j{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+.j button{
+      width: 120px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: #c9dd5a;
+}
