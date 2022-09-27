@@ -65,8 +65,7 @@ function Users() {
                     Delete
                   </button>
                   <li className="g">
-                    {" "}
-                    <a href="./my_account">Update User</a>{" "}
+                    <Link to="/my_account">Update User</Link>
                   </li>
                 </div>
               </div>
