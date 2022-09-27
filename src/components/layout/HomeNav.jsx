@@ -4,6 +4,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas'
 import navImage from "../../asset/my_logo.png";
 import { FaBars, FaShower } from 'react-icons/fa';
 import './HomeNav.css'
+import { Link } from 'react-router-dom';
 
 function HomeNav() {
   const [show, setShow] = useState(false);
@@ -25,16 +26,13 @@ function HomeNav() {
               <Offcanvas.Body>
                 <ul>
                   <li className="link">
-                    {" "}
-                    <a href="./users">User</a>{" "}
+                    <Link to="/users">User</Link>{" "}
                   </li>
                   <li className="link">
-                    {" "}
-                    <a href="./createUser">My Account</a>{" "}
+                    <Link to="/createUser">My Account</Link>{" "}
                   </li>
                   <li className="link">
-                    {" "}
-                    <a href="./">logout</a>{" "}
+                    <Link to="/">logout</Link>{" "}
                   </li>
                 </ul>
               </Offcanvas.Body>
