@@ -26,6 +26,9 @@ function HomeNav() {
               <Offcanvas.Body>
                 <ul>
                   <li className="link">
+                    <Link to="/home">Home</Link>{" "}
+                  </li>
+                  <li className="link">
                     <Link to="/users">User</Link>{" "}
                   </li>
                   <li className="link">

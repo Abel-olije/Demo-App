@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import HomeNav from "../layout/HomeNav";
 import "./Users.css";
 
 function Users() {
@@ -38,6 +39,7 @@ function Users() {
   };
   return (
     <>
+    <HomeNav />
       <div className="j">
         {page > 0 && (
           <button onClick={() => getUsers(page - 1)}>Previous</button>
